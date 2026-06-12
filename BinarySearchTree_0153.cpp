@@ -32,7 +32,7 @@ public :
         ROOT = nullptr;
     }
 
-    // membuat prosedur insert
+    // membuat prosedur insert.
     void insert (string element) {
 
         // memberi nilai untuk setaip object yang berada dalam prosedur insert
