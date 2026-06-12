@@ -35,7 +35,7 @@ public :
     // membuat prosedur insert.
     void insert (string element) {
 
-        // memberi nilai untuk setaip object yang berada dalam prosedur insert
+        // memberi nilai untuk setaip object yang berada dalam prosedur insert.
         node* newNode = new node(element, nullptr, nullptr);
         newNode->info = element;
         newNode->leftchild = nullptr;
