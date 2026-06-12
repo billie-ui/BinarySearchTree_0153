@@ -4,7 +4,7 @@ using namespace std;
 //Membuat class node
 class node{
 
-    // memberi akses modifier serta mendeklarasi variable dan object node
+    // memberi akses modifier serta mendeklarasi variable dan object node.
 public :
     string info;
     node* leftchild;
