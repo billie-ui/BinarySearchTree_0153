@@ -11,7 +11,7 @@ public :
     node* rightchild;
 
 
-    // Membuat constructor untuk class node
+    // Membuat constructor untuk class node.
     node(string i, node* l, node* r) {
         // memberi nilai parameter ke variabel
         info = i;
