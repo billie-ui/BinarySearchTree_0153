@@ -139,7 +139,7 @@ int main()
     //deklarasi while selama bernilai benar
     while (true)
     {
-        // membuat menu program dan input pilihan
+        // membuat menu program dan input pilihan.
         cout << "\nMenu" << endl;
         cout << "1. implement insert operation" << endl;
         cout << "2. perform inorder traversal" << endl;
