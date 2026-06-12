@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+//Membuat class node
+class node{
+
+    // memberi akses modifier serta mendeklarasi variable dan object node
+public :
+    string info;
+    node* leftchild;
+    node* rightchild;
+
+
+    // Membuat constructor untuk class node
+    node(string i, node* l, node* r) {
+        // memberi nilai parameter ke variabel
+        info = i;
+        leftchild = l;
+        rightchild = r;
+    }
+};
