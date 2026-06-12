@@ -130,5 +130,4 @@ public :
             cout << ptr->info << " ";
         }
     }
-
-}
+};
