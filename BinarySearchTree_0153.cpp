@@ -116,7 +116,6 @@ public :
     // Menambahkan fungsi traversal postorder pada BinarySearch
      void postorder(node *ptr)
     {
-        // perfoms the postorder traveersal of the tree
         if (ROOT == nullptr)
         {
             cout << "Tree is empty" << endl;
@@ -131,3 +130,24 @@ public :
         }
     }
 };
+
+int main()
+{
+    //deklarasi object x sebagai object BinaryTree.
+    BinaryTree x;
+
+    //deklarasi while selama bernilai benar
+    while (true)
+    {
+        // membuat menu program dan input pilihan
+        cout << "\nMenu" << endl;
+        cout << "1. implement insert operation" << endl;
+        cout << "2. perform inorder traversal" << endl;
+        cout << "3. perform preorder traversal" << endl;
+        cout << "4. perform postorder traversal" << endl;
+        cout << "5. exit" << endl;
+        cout << "\nEnter your choice (1-5): ";
+        char ch;
+        cin >> ch;
+        cout << endl;
+
