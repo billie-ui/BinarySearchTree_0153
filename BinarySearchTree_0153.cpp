@@ -26,4 +26,25 @@ class BinaryTree {
     // memberi akses modifier dan deklarasi object.
 public :
     node* ROOT;
+
+    // membuat constructor dan memberi nilai kepada object root
+    BinaryTree(){
+        ROOT = nullptr;
+    }
+
+    // membuat prosedur insert
+    void insert (string element) {
+
+        // memberi nilai untuk setaip object yang berada dalam prosedur insert
+        node* newNode = new node(element, nullptr, nullptr);
+        newNode->info = element;
+        newNode->leftchild = nullptr;
+        newNode->rightchild = nullptr;
+
+        node* parent = nullptr;
+        node* currentNode = nullptr;
+        search(element, parent, currentNode);
+
+        // membuat conditional statement
+    }
 }
