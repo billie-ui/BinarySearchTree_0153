@@ -79,6 +79,7 @@ public :
             }
     }
 
+    // Menambahkan fungsi traversal inorder pada binaryTree
     void inorder(node *ptr)
     {
         if (ROOT == nullptr)
