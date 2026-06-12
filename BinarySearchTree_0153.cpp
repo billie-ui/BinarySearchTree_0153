@@ -13,7 +13,7 @@ public :
 
     // Membuat constructor untuk class node.
     node(string i, node* l, node* r) {
-        // memberi nilai parameter ke variabel
+        // memberi nilai parameter ke variabel.
         info = i;
         leftchild = l;
         rightchild = r;
